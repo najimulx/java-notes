@@ -91,8 +91,25 @@ Class Person
 
 
 *Objects* : An object is anything that really exists in the world and can be distingushed from others. Every thing that we see physically will come into this definition, for example:- human being, a book, tree, a table, a pen, and so on.
+If we consider a dog, then its state is - name, breed, color, and the behavior is - barking, wagging the tail, running.
+If you compare the software object with a real-world object, they have very similar characteristics.
+Software objects also have a state and a behavior. A software object's state is stored in fields and behavior is shown via methods.
 
 Collection of objects is called class. It is a logical entity.
+
+*Constructor* : Every class has a constructor. If we do not explicitly write a constructor for a class, the Java compiler builds a default constructor for that class.
+Each time a new object is created, at least one constructor will be invoked. 
+```
+public class Puppy {
+   public Puppy() {
+   }
+
+   public Puppy(String name) {
+      // This constructor has one parameter, name.
+   }
+}
+```
+
 
 ### Inheritance 
 
